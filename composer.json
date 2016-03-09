@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "vlucas/phpdotenv"
+        "vlucas/phpdotenv": "^2.2"
     },
     "autoload": {
         "files": [
