@@ -1,2 +1,0 @@
-# dotenv
-.env environment variables
