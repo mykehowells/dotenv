@@ -1,5 +1,30 @@
 <?php
 
+if ( ! function_exists( 'load_env' ) ) {
+	
+	/**
+	 * Load the environment file if it exists
+	 *
+	 * @param string $path
+	 * @return boolean Always returns true.
+	 */
+	function load_env( $path ) {
+		
+		$path = rtrim( $path, '/' );
+		
+		if( file_exists( $path . '/.env' ) ) {
+		
+		    $dotenv = new Dotenv\Dotenv( $path );
+		    $dotenv->load();
+		
+		}
+		
+		return true;
+		
+	}
+	
+}
+
 if ( ! function_exists( 'env' ) ) {
 	
     /**

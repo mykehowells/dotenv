@@ -27,15 +27,8 @@ Check out the ```vlucas/phpdotenv``` [readme](https://github.com/vlucas/phpdoten
 | will return default value.
 |
 |---------------------------------------------------------------------------*/
+load_env( __DIR__ );
 
-$env_location = __DIR__;
-
-if( file_exists( $env_location . '/.env' ) ) {
-
-	$dotenv = new Dotenv\Dotenv( $env_location );
-	$dotenv->load();
-
-}
 ```
 
 You can then start using the ```env( $key, $default = null )``` function to retrieve data from your .env file.
