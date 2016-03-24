@@ -1,6 +1,9 @@
 dotenv Environment Manager
 ==
 
+[![Stable version](https://poser.pugx.org/mykehowells/dotenv/v/stable.svg)](https://packagist.org/packages/mykehowells/dotenv)
+[![Unstable version](https://poser.pugx.org/mykehowells/dotenv/v/unstable.svg)](https://packagist.org/packages/mykehowells/dotenv)
+
 If you have used Laravel and gotten used to being able to set and switch between environments as easily as swapping out a .env file.
 
 Using ```mykehowells/dotenv```, you can now add that functionality to your own projects with composer.
