@@ -1,15 +1,15 @@
 {
-    "name": "mykehowells/dotenv",
+    "name": "mykemeynell/dotenv",
     "description": "Load .env file into project environment, using same functions as Laravel",
     "type": "library",
     "keywords": ["dotenv", "dot", "env", "environment", "php", "laravel", "production", "development"],
-    "homepage": "https://github.com/mykehowells/dotenv",
+    "homepage": "https://github.com/mykemeynell/dotenv",
     "license": "GPL",
     "authors": [
         {
             "name": "Myke Howells",
-            "email": "myke@mykeand.co",
-            "homepage": "http://mykehowells.com",
+            "email": "iam@mykemeynell.com",
+            "homepage": "http://mykemeynell.com",
             "role": "Developer"
         }
     ],
