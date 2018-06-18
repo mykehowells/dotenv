@@ -60,7 +60,7 @@ if ( ! function_exists( 'env' ) ) {
                 return;
         }
 
-        if ( strlen( $value ) > 1 && str_starts_with( $value, '"' ) && str_starts_with( $value, '"' ) ) {
+        if ( strlen( $value ) > 1 && str_starts_with( $value, '"' ) && str_ends_with( $value, '"' ) ) {
             return substr( $value, 1, -1 );
         }
 
